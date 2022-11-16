@@ -1,0 +1,11 @@
+// target: esnext if babel converts it
+{
+  "compilerOptions": {
+    // "allowJs": true,
+    // "checkJs": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "js"
+  },
+  "include": ["src/**/*"]
+}
